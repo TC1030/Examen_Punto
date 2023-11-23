@@ -1,0 +1,1 @@
+// EScribe TODO lo necesario para la implementación de tu clase, no olvides los includes
