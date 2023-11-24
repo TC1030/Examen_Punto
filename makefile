@@ -1,7 +1,7 @@
 all: clean test
 
-appTests: test/tests.cpp Contenedor.cpp ContCilindrico.cpp ContPrismaRect.cpp
-	g++ -Wall --std=c++17 test/tests.cpp test/catch_amalgamated.cpp Contenedor.cpp ContCilindrico.cpp ContPrismaRect.cpp -o build/appTests
+appTests: test/tests.cpp Punto.cpp Punto3D.cpp Pixel.cpp
+	g++ -Wall --std=c++17 test/tests.cpp test/catch_amalgamated.cpp Punto.cpp Punto3D.cpp Pixel.cpp -o build/appTests
 
 test: appTests
 	# executes all tests
@@ -22,4 +22,4 @@ debug:
 debugvs:
 	g++ *.cpp -g -o build/dexercise
 debugtest: 
-	g++ -Wall --std=c++17 test/tests.cpp test/catch_amalgamated.cpp Contenedor.cpp ContCilindrico.cpp, ContPrismaRect.cpp -g -o build/dexercise
+	g++ -Wall --std=c++17 test/tests.cpp test/catch_amalgamated.cpp Punto.cpp Punto3D.cpp, Pixel.cpp -g -o build/dexercise
