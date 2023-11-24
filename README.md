@@ -19,6 +19,7 @@ classDiagram
       Punto: + Punto(int, int)
       Punto: + mostrar() string
       Punto: friend operator<<(ostream&, Punto&) ostream&
+      Punto: operator==(Punto&) bool
     
     class Punto3D {
         - z : int
