@@ -1,6 +1,6 @@
 #include <vector>   
-#include "ContCilindrico.hpp"
-#include "ContPrismaRect.hpp"
+#include "Pixel.hpp"
+#include "Punto3D.hpp"
 #include <iostream>
 using namespace std;
 
