@@ -60,8 +60,8 @@ TEST_CASE("Ex5", "[Probando polimorfismo en tiempo de ejecución]")
     Punto* c2 = new Punto3D{5, 3, 4};
     SECTION("Polimorfismo con mostrar()")  
     {
-        std::cout << c1 << std::endl;
-        std::cout << c2 << std::endl;
+        std::cout << *c1 << std::endl;
+        std::cout << *c2 << std::endl;
         REQUIRE(true);
 
     }
