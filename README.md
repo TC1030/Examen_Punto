@@ -41,6 +41,7 @@ classDiagram
 ### Clase Punto 
 - Define la clase Punto, el método mostrar deberá regresar en un string con la información del objeto y actuar polimórficamente en tiempo de ejecución.
 - Implementa constructores, getters y setters. El constructor default deberá dar valor de 0 a x y de 1 a y.
+- Para el método mostrar recuerda que puedes **concatenar strings con el operador +** y si requieres en algun momento conversión de int a string puedes usar el **std::to_string(intAconvertir)**
 - Sobrecarga el operador **==** como función friend o como función miembro tu lo decides. Un Punto será igual a otro si están en las misma coordenada (x,y).
 - Sobrecarga el operador **<<**  Al usar en esta sobrecarga el método **mostrar()** que es polimórfico en tiempo de ejecución hará que nuestra sobrecarga sea útil para toda nuestra estructura de clases heredadas.
 
